@@ -22,10 +22,37 @@
   }
 </style>
 
-<body style="background-color:rgb(244, 239, 245);">
-  <h1 id="myHeader">Club Sign-up Forms</h1>
-  <p style="background-color: #ecf3bc;">Search Forms Here!</p>
-
+<body>
+  <!-- Always shows a header, even in smaller screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Clubs Sign-Up Forms!</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="">Club Meeting Schedules</a>
+          <a class="mdl-navigation__link" href="">Club Photos</a>
+          <a class="mdl-navigation__link" href="">Club Awards</a>
+          <a class="mdl-navigation__link" href="">Club Activities</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Title</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Club Meeting Schedules</a>
+        <a class="mdl-navigation__link" href="">Club Photos</a>
+        <a class="mdl-navigation__link" href="">Club Awards</a>
+        <a class="mdl-navigation__link" href="">Club Activities</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content"><!-- Your content goes here --></div>
+    </main>
+  </div>
 
   <!-- Simple Textfield -->
   <form action="#">
@@ -52,7 +79,40 @@
   <li>Coding Club</li>
 </ol>
 
+<h3>Where, Who, When?</h3>
+
+<table style="width:100%">
+  <tr>
+    <th>Who?</th>
+    <th>Where?</th>
+    <th>When?</th>
+  </tr>
+  <tr>
+    <td>Ms Warriner</td>
+    <td> By 2:15 PM on September 12, 2025.</td>
+    <td>R111</td>
+  </tr>
+  <tr>
+    <td>Mr Watson</td>
+    <td>By 2:15 PM on September 12, 2025</td>
+    <td>N307</td>
+  </tr>
+</table>
+
+<p style="color:red;">Make sure to bring signed forms to join the clubs. Some of these clubs are first come first serve, so be quick! Some
+clubs require payments.</p>
+
+
 <!-- Slider with Starting Value -->
 <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0">
 </body>
+
+<style>
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+</style>
+
 </html>
