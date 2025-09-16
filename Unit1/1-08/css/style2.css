@@ -1,0 +1,13 @@
+#myHeader {
+  background-color: lightblue;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  text-align: center;
+}
+
+/* Style all elements with the class name "clothes" */
+  .clothing {
+  background-color: lightblue;
+  color: white;
+  padding: 10px;
+}
