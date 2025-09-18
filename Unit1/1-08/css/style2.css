@@ -1,11 +1,20 @@
-/* Style the element with the id "myHeader" */
-#myHeader {
+#main-container {
   background-color: lightblue;
-  color: white;
-  padding: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 20px;
+  margin: 30px;
   text-align: center;
 }
 
+#main-container h1 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+}
+
+#main-container p {
+  color: #ffffff;
+  font-size: 1.1em;
+}
 /* Style all elements with the class name "clothes" */
 .clothes {
   background-color: lightblue;
