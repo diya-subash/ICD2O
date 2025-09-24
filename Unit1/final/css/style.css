@@ -24,6 +24,7 @@
   padding: 20px;
 }
 
+ /* The cards on main webpage */
 .card {
   border: 5px solid #ee4343;
   border-radius: 8px;
@@ -36,3 +37,21 @@
 .card-container h3 {
   color: rgb(255, 255, 255);
   font-size: 2em;
+}
+
+.card-container h7 {
+    color: rgb(255, 255, 255);
+    font-size: 1em;
+}
+
+ /*  Images */
+.slider img {
+  width: 300px;
+  height: 400px;
+  display: inline-block:
+}
+
+#pictures {
+  position: relative;
+  left: 190px;
+}
