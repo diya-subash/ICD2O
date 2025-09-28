@@ -35,6 +35,7 @@
 .bordered-list li {
   margin-bottom: 5px;
   text-align: left;
+  color: rgb(255, 255, 255);
 }
 
 /* Style all elements with the class name "attractions" */
