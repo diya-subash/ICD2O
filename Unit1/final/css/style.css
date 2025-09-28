@@ -53,5 +53,6 @@
 
 #pictures {
   position: relative;
-  left: 40px;
+  left: 120px;
+  content:"width=device-width, initial-scale=1.0"
 }
