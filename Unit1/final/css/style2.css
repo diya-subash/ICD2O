@@ -1,10 +1,12 @@
-#myHeader {
+  /* ID for page 2 Header. */
+#main-container {
   background-color: rgb(124, 206, 233);
   color: rgb(240, 84, 84);
   padding: 30px;
   text-align: center;
 }
 
+    /* CSS for card in page 2. */
 .card {
   border: 5px solid #ee4343;
   border-radius: 8px;
@@ -32,6 +34,12 @@
 }
 .bordered-list li {
   margin-bottom: 5px;
-  /* Adds space between list items */
   text-align: left;
+}
+
+/* Style all elements with the class name "attractions" */
+.attractions {
+  background-color: rgb(240, 84, 84);
+  color: white;
+  padding: 10px;
 }

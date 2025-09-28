@@ -1,0 +1,47 @@
+  /* ID for page 2 Header. */
+  #main-container {
+    background-color: rgb(124, 206, 233);
+    color: rgb(240, 84, 84);
+    padding: 30px;
+    text-align: center;
+  }
+
+  /* CSS for card in page 2. */
+  .card {
+    border: 5px solid #007bff; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 238, 238, 0.1);
+    padding: 20px;
+    text-align: center;
+    background-color: #ee4343;
+  }
+
+  .bordered-list {
+    border: 2px solid #ee4343;
+    /* Sets a 2px solid blue border */
+    padding: 15px;
+    /* Adds space between the border and list items */
+    margin: 20px;
+    /* Adds space around the entire list */
+    border-radius: 8px;
+    /* Rounds the corners of the border */
+    list-style-type: none;
+    /* Removes default bullet points/numbers */
+  }
+
+  .card-container h5 {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+  }
+
+  .bordered-list li {
+    margin-bottom: 5px;
+    text-align: left;
+  }
+
+/* Style all elements with the class name "food" */
+.food {
+  background-color: rgb(124, 206, 233);
+  color: white;
+  padding: 10px;
+}
