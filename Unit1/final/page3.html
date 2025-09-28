@@ -27,13 +27,15 @@
   }
 </style>
 <body>
+  <!-- Icon badge on icon -->
+  <div class="material-icons mdl-badge mdl-badge--overlap" data-badge="♥">account_box</div>
   <!-- Always shows a header, even in smaller screens. -->
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
         <!-- Title -->
         <span class="mdl-layout-title">France Travel Guide!</span>
-        <!-- Add spacer, to align navigation to the right -->
+        
         <div class="mdl-layout-spacer"></div>
         <!-- Navigation. We hide it in small screens. -->
         <nav class="mdl-navigation mdl-layout--large-screen-only">
@@ -55,8 +57,11 @@
         <a class="mdl-navigation__link" href="./page5.html">Itinerary & Tips</a>
       </nav>
     </div>
+
+<!-- Heading -->
   <h1 id="myHeader">France Search Site</h1>
   <p style="background-color: #5993e4; color: rgb(255, 255, 255);">Search more about France Here!</p>
+
   <!-- Simple Textfield -->
   <form action="#">
     <div class="mdl-textfield mdl-js-textfield">
@@ -64,23 +69,18 @@
       <label class="mdl-textfield__label" for="sample1">Search...</label>
     </div>
   </form>
-  <!-- Colored FAB button with ripple -->
+
+  <!-- Search and Clear Buttons. MDL -->
   <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-    <i id="searchButton">search</i>
+    <i id="searchButton"></i>
+    <i class="material-icons">search</i>
   </button>
   <button id="clearButton" class="mdl-button mdl-js-button">Clear</button>
-  <script>
-    const button = document.getElementById('searchButton');
-    const input = document.getElementById('userInput');
-    button.addEventListener('click', function () {
-      const q = (input.value || '').trim();
-      const url = 'https://www.google.com/search?q=' + encodeURIComponent(q);
-      window.open(url, '_blank');
-    })
-    document.getElementById('clearButton').addEventListener('click', () => {
-      document.getElementById('userInput').value = '';
-      document.getElementById('userInput').focus();
-    });
-  </script>
+
+<!-- JavaScript Link -->
+  <script src="./js/script.js"></script>
+
+<!-- Picture -->
+  <img src="./images/france.png" alt="France Flag">
 </body>
 </html>

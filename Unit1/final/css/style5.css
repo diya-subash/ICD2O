@@ -1,0 +1,38 @@
+  /* ID for page 5 Header. */
+  #main-container {
+    background-color: rgb(240, 84, 84);
+    color: rgb(124, 206, 233);
+    padding: 30px;
+    text-align: center;
+  }
+
+/* CSS for card in page 2. */
+.card {
+  border: 5px solid #007bff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(255, 238, 238, 0.1);
+  padding: 20px;
+  text-align: center;
+  background-color: #ee4343;
+    }
+
+.card-container h2 {
+  color: rgb(255, 255, 255);
+  font-size: 3em;
+}
+
+.card-container h3 {
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+            }
+
+.bordered-list li {
+  margin-bottom: 5px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+}
+
+#pictures {
+  position: relative;
+  right: 10px;
+}
