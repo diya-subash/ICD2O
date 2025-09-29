@@ -1,3 +1,4 @@
+  /*Main Heading on Home Page.*/
 #main-container {
   background-color: rgb(219, 83, 83);
   border: 5px solid rgb(54, 154, 212);
@@ -15,6 +16,7 @@
   color: rgb(255, 255, 255);
 }
 
+/* The cards on main webpage */
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -24,7 +26,6 @@
   padding: 20px;
 }
 
-/* The cards on main webpage */
 .card {
   border: 5px solid #ee4343;
   border-radius: 8px;

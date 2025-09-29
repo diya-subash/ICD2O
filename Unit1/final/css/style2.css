@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-    /* CSS for card in page 2. */
+/* CSS for card in page 2. */
 .card {
   border: 5px solid #ee4343;
   border-radius: 8px;
@@ -15,19 +15,17 @@
   text-align: center;
   background-color: #499bdf;
 } 
+
+/*List.*/
 .bordered-list {
   border: 2px solid #007bff;
-  /* Sets a 2px solid blue border */
   padding: 15px;
-  /* Adds space between the border and list items */
   margin: 20px;
-  /* Adds space around the entire list */
   border-radius: 8px;
-  /* Rounds the corners of the border */
   list-style-type: none;
-  /* Removes default bullet points/numbers */
 }
 
+/*Highlighted section for every subheading in page 2.*/
 .card-container h5 {
   color: rgb(255, 255, 255);
   font-size: 2em;

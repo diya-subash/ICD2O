@@ -6,7 +6,7 @@
     text-align: center;
   }
 
-/* CSS for card in page 2. */
+/* CSS for card in page 5. */
 .card {
   border: 5px solid #007bff;
   border-radius: 8px;
@@ -30,13 +30,9 @@
   color: rgb(255, 255, 255);
 }
 
+/* List in page 5. */
 .bordered-list li {
   margin-bottom: 5px;
   text-align: left;
   color: rgb(255, 255, 255);
-}
-
-#pictures {
-  position: relative;
-  right: 10px;
 }
